@@ -13,7 +13,7 @@
 @end
 
 @implementation ViewController
-
+@synthesize kep;
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -26,4 +26,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)gombsor:(UIPageControl *)sender {
+    
+    kep.image = [UIImage imageNamed:[NSString stringWithFormat:@"%d.jpg",sender.currentPage+1]];
+}
+
+//ennyi az egész !
 @end

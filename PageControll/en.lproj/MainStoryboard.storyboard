@@ -1,18 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2519" systemVersion="12A206j" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="2844" systemVersion="12C54" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="2">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1856"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="1930"/>
     </dependencies>
     <scenes>
-        <!--class Prefix:identifier View Controller-->
+        <!--View Controller-->
         <scene sceneID="5">
             <objects>
                 <viewController id="2" customClass="ViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3">
-                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <rect key="frame" x="0.0" y="20" width="320" height="548"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Jv-bC-v28">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="497" id="0Pb-4z-LGe"/>
+                                </constraints>
+                            </imageView>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="gYP-8e-o7y">
+                                <connections>
+                                    <action selector="gombsor:" destination="2" eventType="valueChanged" id="ca8-78-3Z0"/>
+                                </connections>
+                            </pageControl>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0026324728260869179" green="0.0026324728260869179" blue="0.0026324728260869179" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="gYP-8e-o7y" firstAttribute="top" secondItem="4Jv-bC-v28" secondAttribute="bottom" constant="8" symbolic="YES" type="default" id="0Kp-eP-r6k"/>
+                            <constraint firstItem="4Jv-bC-v28" firstAttribute="trailing" secondItem="3" secondAttribute="trailing" type="default" id="7ut-4O-lFV"/>
+                            <constraint firstItem="4Jv-bC-v28" firstAttribute="top" secondItem="3" secondAttribute="top" type="default" id="gFA-6h-hZl"/>
+                            <constraint firstItem="4Jv-bC-v28" firstAttribute="leading" secondItem="3" secondAttribute="leading" type="default" id="ipF-CE-Brs"/>
+                            <constraint firstItem="gYP-8e-o7y" firstAttribute="centerX" secondItem="4Jv-bC-v28" secondAttribute="centerX" type="default" id="yn1-am-QaI"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="kep" destination="4Jv-bC-v28" id="yzF-RX-qvv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4" sceneMemberID="firstResponder"/>
             </objects>

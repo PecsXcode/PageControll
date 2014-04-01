@@ -18,6 +18,9 @@
 		63043C41172686C2001D4292 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63043C40172686C2001D4292 /* Default-568h@2x.png */; };
 		63043C44172686C2001D4292 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63043C42172686C2001D4292 /* MainStoryboard.storyboard */; };
 		63043C47172686C2001D4292 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63043C46172686C2001D4292 /* ViewController.m */; };
+		63043C501726876F001D4292 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63043C4D1726876F001D4292 /* 3.jpg */; };
+		63043C511726876F001D4292 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63043C4E1726876F001D4292 /* 2.jpg */; };
+		63043C521726876F001D4292 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63043C4F1726876F001D4292 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,9 @@
 		63043C43172686C2001D4292 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		63043C45172686C2001D4292 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		63043C46172686C2001D4292 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63043C4D1726876F001D4292 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		63043C4E1726876F001D4292 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		63043C4F1726876F001D4292 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,9 @@
 				63043C42172686C2001D4292 /* MainStoryboard.storyboard */,
 				63043C45172686C2001D4292 /* ViewController.h */,
 				63043C46172686C2001D4292 /* ViewController.m */,
+				63043C4D1726876F001D4292 /* 3.jpg */,
+				63043C4E1726876F001D4292 /* 2.jpg */,
+				63043C4F1726876F001D4292 /* 1.jpg */,
 				63043C31172686C2001D4292 /* Supporting Files */,
 			);
 			path = PageControll;
@@ -163,6 +172,9 @@
 				63043C3F172686C2001D4292 /* Default@2x.png in Resources */,
 				63043C41172686C2001D4292 /* Default-568h@2x.png in Resources */,
 				63043C44172686C2001D4292 /* MainStoryboard.storyboard in Resources */,
+				63043C501726876F001D4292 /* 3.jpg in Resources */,
+				63043C511726876F001D4292 /* 2.jpg in Resources */,
+				63043C521726876F001D4292 /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
